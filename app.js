@@ -19,7 +19,7 @@ function allClick() {
     if (per == "20%") {
         var k = ( B * 0.2);
         var y = ( k / p);
-        var j = "the tip amount to be paid is $" + y + " dollars";
+        var j = "The Tip Amount To Be Paid is $" + y + " Dollars";
         document.getElementById("demo").innerHTML = j;
         
         console.log(y);

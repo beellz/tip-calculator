@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.main {
+    background: #cccccc;
+    width: 550px;
+    height: 560px;
+    margin: 100px auto;
+    position: relative;
+    padding: 30px;
+}
+
+
+.midle {
+    background: #ebebeb;
+    text-align: center;
+    font-size: 10pt;
+    height: 100%;
+    padding-top: 10px;
+    font-family: sans-serif;
+    border-radius: 4px;
+    
+}
+
+.display {
+    font-family: sans-serif;
+    font-size: 17pt;
+}
+
+.calc {
+    padding-top: 20px;
+    ;
+}
+
+#btn {
+    padding: 20px;
+    font-size: 20pt;
+}
+
+.bill {
+    padding : 20px;
+}

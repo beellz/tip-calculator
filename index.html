@@ -4,25 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Tip calculate</title>
 </head>
 <body>
-
-    <h1>Bill amount</h1>
+    <div class="main">
+        <div class="midle">
+    <h1 class="bill">Bill amount</h1>
     <input type="text" placeholder="amount" id="Bill">
-    <h1>Select percentage</h1>
+    <h1 class="bill">Select percentage</h1>
     <select name="percen" id="percentage">
         <option value="10%">10%</option>
         <option value="20%">20%</option>
     </select>
-    <h1>Number of people</h1>
-    <input type="text" placeholder="people" id= "people">
+    <h1 class="bill">Number of people</h1>
+    <input type="text" placeholder="people" id = "people">
     <br>
-
-    <button onclick="allClick()">calculate</button>
-
-    <p id="demo"></p>
-    
+    <div class="calc">
+        <button onclick="allClick()" id="btn">calculate</button>
+       
+        <div class="display">
+          <p class="bill" id="demo"></p>
+        </div>
+    </div>
+        </div>
+        
+</div>
     <script src="app.js"></script>    
 </body>
 </html>
