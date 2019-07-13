@@ -22,7 +22,6 @@ function allClick() {
         var j = "The Tip Amount To Be Paid is $" + y + " Dollars";
         document.getElementById("demo").innerHTML = j;
         
-        console.log(y);
     } 
     
 }
