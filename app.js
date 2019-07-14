@@ -28,6 +28,13 @@ function allClick() {
         document.getElementById("demo").innerHTML = j;
     } 
 
+    if (per == "15%") {
+        var k = ( B * 0.15);
+        var y = ( k / p);
+        var j = "The Tip Amount To Be Paid is $" + y + " Dollars";
+        document.getElementById("demo").innerHTML = j;
+    } 
+
 
     
     if (per == "20%") {
