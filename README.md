@@ -10,3 +10,6 @@ the by calculating and you will get ur answer
 
 You can view this by clicking this link
 https://beellz.github.io/tip-calculator/
+
+You can also use Docker to view this .
+` docker-compose up `
